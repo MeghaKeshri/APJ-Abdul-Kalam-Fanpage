@@ -1,0 +1,46 @@
+body{
+  text-align: center;
+  background-color: #FFFDDE;
+}
+div
+{
+  background-color: #FFCBCB;
+  padding:10px;
+  width:80%;
+  margin: auto auto;
+   font-family: 'Roboto', sans-serif;
+   font-size:20px;
+}
+h2
+{
+font-size: 35px;
+  padding: 10px;
+}
+
+.end{
+  padding:30px;
+  font-size:20px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bolder;
+}
+.gallary {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #FFCBCB;
+  padding: 0;
+
+
+
+
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+object-fit: fill;
+margin:0;
+padding: 0;
+}
+.t-img
+{
+  border-radius: 50%;
+}
